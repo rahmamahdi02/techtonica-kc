@@ -1,0 +1,7 @@
+.DS_Store
+../.DS_Store
+../Objects from the Odin Project.js
+
+.node_modules
+./node_modules
+/node_modules

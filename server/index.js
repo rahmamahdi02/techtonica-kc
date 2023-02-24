@@ -26,7 +26,7 @@ app.get('/aboutme', (req, res)=>{ //then need to create html
 } )
 
 //router for about me
-app.get('/aboutme', (req, res)=>{ //then need to create html
+app.get('/contactme', (req, res)=>{ //then need to create html
     // res.json('Hello this will be a single page');// testing should give us this text on the browser when we do localhost:8080
     res.sendFile(path.join(__dirname, "../client/contactme.html")) //making sure the path is about me
 } )
